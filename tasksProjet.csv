@@ -1,61 +1,61 @@
-TaskId;TaskId;Subject;Name;WorkLoad;Who;StartDate;EndDate;Priority;PredecessorTaskId
-12;12;Telnet taux technique;Dev + UAT;3,0;ACH;;;1100;
-4;4;Reserves corporates;Injecter les donnees en DEV;1,0;PTI;;;1095;
-14;14;Chargements initiaux;Agresso;3,0;QPI;;;1090;
-31;31;BAU;Injection de la cloture;1,0;PTI;;;1087;
-15;15;Chargements initiaux;Vie;15,0;PTI;;;1085;
-5;5;Reserves corporates;Developper les flux datamarts;1,0;DEL;;;1075;4
-39;39;Scoring;Preparation et Deploiement en UAT;2,0;CGA;;;1070;
-40;40;Scoring;Chargement datamart en UAT;2,0;CGA;;;1060;39
-41;41;Scoring;Creation univers scoring;1,0;EGA;;;1050;40
-42;42;Scoring;Creation rapports scoring;2,0;MWA;;;1040;41
-43;43;Scoring;Validation rapports scoring;2,0;MWA;;;1030;42
-44;44;Scoring;Analyse des erreurs;2,0;CGA;;;1020;43
-45;45;Scoring;Preparation et deploiement en production univers et rapports;1,0;CGA;;;1010;44
-46;46;Scoring;Preparation et deploiement en production datamart;1,0;CGA;;;1005;45
-1;1;PM;PM;110,0;PM;;;999;
-13;13;Sprint;Preparation de l'environnement;2,0;ACH;;;995;
-2;2;Datamart global;Developpement des adaptations;2,0;DEL;;;990;4
-3;3;Donnees reserves additionnelles;Developpement des adaptations;2,0;DEL;;;985;4
-7;7;Sprint;Preparation deploiement en UAT;2,0;ACH;;;982;5
-8;8;Sprint ;Deployer en UAT et injecter les donnees;3,0;ACH;;;980;7
-9;9;Sprint;Support UAT;3,0;ACH;;;970;8
-6;6;Reserves corporates;Adapter l'univers;1,0;EGA;;;960;5
-10;10;Reserves corporates;Tester et valider;4,0;LZI;;;950;5
-25;25;Donnees reserves additionnelles;Adaptation univers;2,0;EGA;;;942;3
-22;22;Donnees reserves additionnelles;Tester et valider Corporate;3,0;SLA;;;940;3
-23;23;Donnees reserves additionnelles;Tester et valider Invest;3,0;AHI;;;930;3
-24;24;Donnees reserves additionnelles;Tester et valider Classique;3,0;OGO;;;920;3
-21;21;Datamart global;Creation univers;5,0;EGA;;;915;2
-20;20;Datamart global;Tester et valider (definir methode);10,0;SLA;;;910;2
-16;16;BAU;BAU;175,0;BAU;;;900;
-33;33;EDB;Gouvernance et fonctionnement en 2017;1,0;OVA;;;900;
-47;47;BAU;Mouvements non visibles hors octobre 2016;10,0;QPI;;;895;
-11;11;Sprint ;Deployer en production;1,0;PTI;;;890;10
-17;17;Support prod 2016;Support au metier;5,0;PTI;;;850;
-27;27;Datamart comptabilite;Contenu fichier mapping compte;2,0;EGA;;;820;
-34;34;CR (a analyser);Adaptation framework data quality - besoins;2,0;EGA;;;790;
-58;58;CR (a analyser);Adaptation framework data quality - technique;20,0;ACH;;;780;
-60;60;CR (a analyser);Adaptation framework data quality - tests;2,0;EGA;;;770;
-37;37;CR (a analyser);Mise a jour des fichiers referentiels;5,0;EGA;;;760;
-59;59;CR;Injection des nouveaux referentiels;1,0;PTI;;;750;
-29;29;BAU;Operationnalisation dqi, kpi etc;10,0;ACH;;;700;11
-50;50;Rapports initiaux;Developpement des rapports;5,0;MWA;;;690;
-51;51;Rapports initiaux;Extractions de comparaison;5,0;PTI;;;680;
-52;52;Rapports initiaux;Analyse des erreurs;5,0;PTI;;;670;51
-53;53;Rapports initiaux;Corrections;15,0;PTI;;;650;52
-54;54;Rapports initiaux;Preparation et deploiement UAT;4,0;PTI;;;640;53
-55;55;Rapports initiaux;Support UAT;5,0;PTI;;;630;54
-56;56;Rapports initiaux;Deploiement production;1,0;PTI;;;620;55
-32;32;BAU;Gestion des droits d'acces;3,0;CGA;;;550;
-36;36;CR;Prestations hors systeme sources;15,0;PTI;;;545;
-30;30;BAU;automatisation de l'injection des clotures;15,0;ACH;;;500;18
-35;35;CR;Reprise historique (version d'un record);30,0;CGA;;;500;
-48;48;Corrections;Primes techniques (inventaires, commerciales...) erronees;10,0;ACH;;;490;
-49;49;Corrections;Issue comptabilite;10,0;PTI;;;480;
-28;28;DQI;DQI;62,5;PTI;;;475;
-19;19;Formation SAP BO administration;Formation SAP BO administration;5,0;CGA;;;450;
-57;57;IT;Merge framework;10,0;CGA;;;400;
-26;26;KPI;KPI AXA;60,0;ACH;;;300;
-38;38;BAU;Validation fonctionnelle des chargements;15,0;PTI;;;300;
-18;18;Formalisation EX RM WIN AIX;Formalisation EX RM WIN AIX;3,0;ACH;;;200;
+TaskId;Subject;Name;WorkLoad;Who;StartDate;EndDate;Priority;PredecessorTaskId
+12;Autres Sujets;Dev + UAT;3;ACH;;;1100;
+2;Lot Reserves;DMG - Developpement des adaptations;2;DEL;;;990;4
+14;Chargements initiaux;Agresso;3;QPI;;;1090;
+31;BAU;Injection de la cloture;1;PTI;;;1087;
+15;Chargements initiaux;Vie;15;PTI;;;1085;
+21;Lot Reserves;DMG - Creation univers;5;EGA;;;915;2
+39;Scoring;Preparation et Deploiement en UAT;2;CGA;;;1070;
+40;Scoring;Chargement datamart en UAT;2;CGA;;;1060;39
+41;Scoring;Creation univers scoring;1;EGA;;;1050;40
+42;Scoring;Creation rapports scoring;2;MWA;;;1040;41
+43;Scoring;Validation rapports scoring;2;MWA;;;1030;42
+44;Scoring;Analyse des erreurs;2;CGA;;;1020;43
+45;Scoring;Preparation et deploiement en production univers et rapports;1;CGA;;;1010;44
+46;Scoring;Preparation et deploiement en production datamart;1;CGA;;;1005;45
+1;PM;PM;110;PM;;;999;
+13;Sprint;Preparation de l'environnement;2;ACH;;;995;
+20;Lot Reserves;DMG - Tester et valider (definir methode);10;SLA;;;910;2
+3;Lot Reserves;RA - Developpement des adaptations;2;DEL;;;985;4
+7;Sprint;Preparation deploiement en UAT;2;ACH;;;982;5
+8;Sprint;Deployer en UAT et injecter les donnees;3;ACH;;;980;7
+9;Sprint;Support UAT;3;ACH;;;970;8
+25;Lot Reserves;RA - Adaptation univers;2;EGA;;;942;3
+22;Lot Reserves;RA - Tester et valider Corporate;3;SLA;;;940;3
+23;Lot Reserves;RA - Tester et valider Invest;3;AHI;;;930;3
+24;Lot Reserves;RA - Tester et valider Classique;3;OGO;;;920;3
+4;Lot Reserves;RC - Injecter les donnees en DEV;1;PTI;;;1095;
+5;Lot Reserves;RC - Developper les flux datamarts;1;DEL;;;1075;4
+6;Lot Reserves;RC - Adapter l'univers;1;EGA;;;960;5
+10;Lot Reserves;RC - Tester et valider;4;LZI;;;950;5
+16;BAU;BAU;175;BAU;;;900;
+33;EDB;Gouvernance et fonctionnement en 2017;1;OVA;;;900;
+47;BAU;Mouvements non visibles hors octobre 2016;10;QPI;;;895;
+11;Sprint;Deployer en production;1;PTI;;;890;10
+17;BAU;Support au metier 2016;5;PTI;;;850;
+27;Utilisation;DA - Contenu fichier mapping compte;2;EGA;;;820;
+34;CR;Adaptation framework data quality - besoins (a analyser);2;EGA;;;790;
+58;CR;Adaptation framework data quality - technique (a analyser);20;ACH;;;780;34
+60;CR;Adaptation framework data quality - tests (a analyser);2;EGA;;;770;58
+37;CR;Mise a jour des fichiers referentiels (a analyser);5;EGA;;;760;
+59;CR;Injection des nouveaux referentiels;1;PTI;;;750;37
+29;BAU;Operationnalisation dqi, kpi etc;10;ACH;;;700;11
+50;Rapports initiaux;RI - Developpement des rapports initiaux;5;MWA;;;690;
+51;Rapports initiaux;RI - Extractions de comparaison;5;PTI;;;680;
+52;Rapports initiaux;RI - Analyse des erreurs;5;PTI;;;670;51
+53;Rapports initiaux;RI - Corrections;15;PTI;;;650;52
+54;Rapports initiaux;RI - Preparation et deploiement UAT;4;PTI;;;640;53
+55;Rapports initiaux;RI - Support UAT;5;PTI;;;630;54
+56;Rapports initiaux;RI - Deploiement production;1;PTI;;;620;55
+32;BAU;Gestion des droits d'acces;3;CGA;;;550;
+36;CR;Prestations hors systeme sources (a analyser);15;PTI;;;545;
+30;BAU;automatisation de l'injection des clotures;15;ACH;;;500;18
+35;CR;Reprise historique (version d'un record);30;CGA;;;500;
+48;BAU;Primes techniques (inventaires, commerciales...) erronees;10;ACH;;;490;
+49;BAU;Issue comptabilite;10;PTI;;;480;
+28;CR;DQI;62,5;PTI;;;475;
+19;BAU;Formation SAP BO administration;5;CGA;;;450;
+57;IT;Merge framework;10;CGA;;;400;
+26;CR;KPI AXA;60;ACH;;;300;
+38;BAU;Validation fonctionnelle des chargements;15;PTI;;;300;
+18;BAU;Formalisation EX RM WIN AIX;3;ACH;;;200;
