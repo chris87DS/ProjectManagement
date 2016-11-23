@@ -1,0 +1,57 @@
+TaskId;Subject;Name;WorkLoad;Who;StartDate;EndDate;Priority;PredecessorTaskId
+12;Autres Sujets;Telnet Dev + UAT;3;ACH;;;1100;
+4;Lot Reserves;RC - Injecter les donnees en DEV;1;PTI;;;1095;
+14;Chargements initiaux;Agresso;3;QPI;;;1090;
+31;BAU;Injection de la cloture;1;PTI;;;1087;
+15;Chargements initiaux;Vie;15;PTI;;;1085;
+5;Lot Reserves;RC - Developper les flux datamarts;1;DEL;;;1075;4
+39;Scoring;Preparation et Deploiement en UAT;2;CGA;;;1070;
+40;Scoring;Chargement datamart en UAT;2;CGA;;;1060;39
+41;Scoring;Creation univers scoring;1;EGA;;;1050;
+42;Scoring;Creation rapports scoring;2;MWA;;;1040;41
+43;Scoring;Validation rapports scoring;2;MWA;;;1030;40
+44;Scoring;Analyse des erreurs;2;QPI;;;1020;43
+45;Scoring;Preparation et deploiement en production univers et rapports;1;QPI;;;1010;44
+1;PM;PM;110;PM;;;999;
+13;Sprint;Preparation de l'environnement;2;ACH;;;995;
+2;Lot Reserves;DMG - Developpement des adaptations;2;DEL;;;990;4
+3;Lot Reserves;RA - Developpement des adaptations;2;DEL;;;985;4
+7;Sprint;Preparation deploiement en UAT;2;ACH;;;982;5
+8;Sprint;Deployer en UAT et injecter les donnees;3;ACH;;;980;7
+9;Sprint;Support UAT;3;ACH;;;970;8
+6;Lot Reserves;RC - Adapter l'univers;1;EGA;;;960;5
+10;Lot Reserves;RC - Tester et valider;4;LZI;;;950;5
+25;Lot Reserves;RA - Adaptation univers;2;EGA;;;942;3
+22;Lot Reserves;RA - Tester et valider Corporate;3;SLA;;;940;3
+23;Lot Reserves;RA - Tester et valider Invest;3;AHI;;;930;3
+24;Lot Reserves;RA - Tester et valider Classique;3;OGO;;;920;3
+21;Lot Reserves;DMG - Creation univers;5;EGA;;;915;2
+16;BAU;BAU;175;BAU;;;900;
+33;EDB;Gouvernance et fonctionnement en 2017;1;OVA;;;900;
+11;Sprint;Deployer en production;1;PTI;;;890;10
+27;Utilisation;DA - Contenu fichier mapping compte;2;EGA;;;820;
+34;CR;Adaptation framework data quality - besoins (a analyser);2;EGA;;;790;
+58;CR;Adaptation framework data quality - technique (a analyser);20;ACH;;;780;34
+60;CR;Adaptation framework data quality - tests (a analyser);2;EGA;;;770;58
+37;CR;Mise a jour des fichiers referentiels (a analyser);5;EGA;;;760;
+59;CR;Injection des nouveaux referentiels;1;CGA;;;750;37
+29;BAU;Operationnalisation dqi, kpi etc;10;ACH;;;700;11
+50;Utilisation;RI - Developpement des rapports initiaux;5;MWA;;;690;
+51;Utilisation;RI - Extractions de comparaison;5;PTI;;;680;
+52;Utilisation;RI - Analyse des erreurs;5;PTI;;;670;51
+53;Utilisation;RI - Corrections;15;PTI;;;650;52
+54;Utilisation;RI - Preparation et deploiement UAT;4;PTI;;;640;53
+55;Utilisation;RI - Support UAT;5;PTI;;;630;54
+56;Utilisation;RI - Deploiement production;1;PTI;;;620;55
+32;BAU;Gestion des droits d'acces;3;CGA;;;550;
+36;CR;Prestations hors systeme sources (a analyser);15;PTI;;;545;
+30;BAU;automatisation de l'injection des clotures;15;ACH;;;500;18
+35;CR;Reprise historique (version d'un record);30;PTI;;;500;
+48;BAU;Primes techniques (inventaires, commerciales...) erronees;10;ACH;;;490;
+49;BAU;Issue comptabilite;10;PTI;;;905;
+28;CR;DQI;62,5;PTI;;;475;
+19;BAU;Formation SAP BO administration;5;CGA;;;450;
+57;CR;Merge framework;10;CGA;;;400;
+26;CR;KPI AXA;60;ACH;;;300;
+38;BAU;Validation fonctionnelle des chargements;15;PTI;;;300;
+18;BAU;Formalisation EX RM WIN AIX;3;ACH;;;200;
